@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(53, 50, 50, 0.815);
+}
+
+ul li{
+    
+    display: inline;
+
+}
+
+ul li.Search_btn button{
+    border:none;
+    background-color: white;
+}
+ul li.btn-btn button{
+    border:none;
+    background-color: white;
+}
+
+ul li.logo{
+    padding-left: 900;
+}
+ul li.logo button{
+    background-color:black;
+    border:none;
+}
+/* 
+ul li.logo button img{
+    width: 347px;
+    height: 287px;
+} */
+
+ul{
+    /* background-color: rgb(63, 55, 55); */
+    background-color: black;
+    color: white;
+}

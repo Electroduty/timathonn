@@ -1,0 +1,15 @@
+body{
+    background-image: url('images/mpas.png');
+    background-repeat: no-repeat;
+    background-size: 1700px;
+
+}
+
+form.data{
+    transform: translate(500px, 400px);
+}
+
+form input.Country{
+    border: 2px solid #c94b4b, #4b134f;
+    border-radius: 4px;
+}

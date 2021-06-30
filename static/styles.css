@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(247, 231, 94);
+
+}
+h1{
+    color:aliceblue;
+    font-family: monospace;
+}
+
+div.map{
+    background-color: rgb(0, 0, 0);
+    width: 1055px;
+    padding: 400px;
+    padding-left: 550px;
+    height: 200px;
+    padding-top: 200PX;
+    width: 250px;
+    height: 100px;
+    padding-left: 50px;
+    transform: translate(460px, 440px);
+    border-radius: 100px;
+    padding-bottom: 500px;
+    padding-top: 50px;
+}
+
+div.map h1{
+    color:aliceblue;
+    font-family: monospace;
+}
+
+div.mymap{
+    border-radius: 50px;
+}
+
+div.map input.type{
+    border-radius: 50px;
+    font-family: monospace;
+}
+
+div.map label.lbl{
+    font-family: monospace;
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+}
+
+

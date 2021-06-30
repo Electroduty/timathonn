@@ -18,7 +18,7 @@ app.config['UPLOAD_EXTENSIONS'] = ['.mp3', '.mp4']
 app.config['UPLOAD_PATH'] = 'uploads'
 
 #SQLite3 Init
-
+#none
 
 #Connect to database
 con = sqlite3.connect('Videofilelink.db')

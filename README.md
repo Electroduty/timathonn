@@ -1,9 +1,9 @@
 <h1>Explore</h1>
 
 <h2>About:<h2>
-About the maker of Explore(Me-Gaurav Chandrashekar):
+<p>About the maker of Explore(Me-Gaurav Chandrashekar):
 
-<p>So... I am a 12 year old boy who is currently into programming with python and C#. I am much more proficient with python tho... 
+So... I am a 12 year old boy who is currently into programming with python and C#. I am much more proficient with python tho... 
 I was scrolling thru youtube when I found tim's timathon video and I absolutely loved it! So here i am acctually oarticipating in the timathon!</p>
 
 <h2>About the app:</h2>

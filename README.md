@@ -1,4 +1,4 @@
-<h1 style="color:blue;">Explore</h1>
+<h2>Explore</h2>
 
 About the maker of Explore(Me-Gaurav Chandrashekar):
 

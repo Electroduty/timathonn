@@ -10,6 +10,12 @@ from flask import Flask, render_template, request, redirect, url_for, abort, \
     send_from_directory
 from werkzeug.utils import secure_filename
 import sqlite3
+import smtplib
+import os
+from email.message import EmailMessage
+
+EMAIL_ADDRESS = 'gc997716@gmail.com'
+EMAIL_PASSWORD = 'Cosmic@Dogfight13'
 
 
 #Flask Init
@@ -259,7 +265,31 @@ def home():
 def rating():
     if request.method == "POST":
         rating = request.form['rating']
-        print(rating) 
+        email = request.form['email']
+        msg=EmailMessage()
+
+        msg['Subject'] = 'Thanks for the rating'
+        msg['From'] = EMAIL_ADDRESS
+        msg['To'] = str(email)
+        rating= str(rating)+'stars'
+        msg.set_content('Thanks a lot for your rating, 5 stars! Impressed')
+        msg.add_alternative("""\
+            <!DOCTYPE html>
+        <html lang="en">
+        <body style="background-color:pink;">
+            <h1 style="font-family: monospace;">Thanks for the rating</h1>
+            <h2 style="font-family: monospace;">Ohh!!! """+rating+""" Impressive!</h2> 
+            <img src="https://instagram.fblr1-5.fna.fbcdn.net/v/t51.2885-15/e35/s240x240/211963830_244630863790534_4344418040274416200_n.jpg?tp=1&_nc_ht=instagram.fblr1-5.fna.fbcdn.net&_nc_cat=110&_nc_ohc=LKNw9VyQ35cAX8ac1u1&edm=AI8ESKwBAAAA&ccb=7-4&oh=8e04ac45ab02df4002c740bec98da62c&oe=60E71297&_nc_sid=195af5&ig_cache_key=MjYwOTA2NTA2Mjc3NDAyNDk4NQ%3D%3D.2-ccb7-4" alt="paper" width="900px" height="900px" style="padding:100px;">
+
+
+        </body>
+        </html>
+
+            """, subtype='html')
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:    
+            smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
+            smtp.send_message(msg)
+ 
         return render_template('rating.html')
     else:
         return render_template('rating.html')

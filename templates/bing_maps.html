@@ -23,20 +23,11 @@
         var lat = parseFloat(spt[0])
         var lng = parseFloat(spt[1]) 
         var map = new Microsoft.Maps.Map('#myMap', {
-            credentials: 'ApoSfk2tKg5S1J5L3DFAMjfwreSS62XGMtLE9NsAmGcNWQJ21lAeRJs3w1LML19X',
+            credentials: 'API_KEY',
             center: new Microsoft.Maps.Location(lat,lng),
             mapTypeId: Microsoft.Maps.MapTypeId.aerial,
             zoom: 500
         });
-        // var map2 = new.Microsoft.Maps.Map('#myMap1', {
-        //     credentials: 'ApoSfk2tKg5S1J5L3DFAMjfwreSS62XGMtLE9NsAmGcNWQJ21lAeRJs3w1LML19X',
-        //     center: new Microsoft.Maps.Location(lat,lng),
-        //     mapTypeId: Microsoft.Maps.MapTypeId.aerial,
-        //     zoom: 500
-
-        // })
-
-        //Add your post map load code here.
     }
     </script>
 </head>

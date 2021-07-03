@@ -7,7 +7,13 @@
     <!-- Reference to the Bing Maps SDK -->
     <script type='text/javascript'src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&GetMap2'async defer></script>
     <link rel="stylesheet" href="static/location.css">
-
+    <div class="navbar" style="background-color: #333;">
+        <p style="font-family:monospace; color:white;">Powered by...</p>
+        <a href="/"><img src="/static/images/icon.png" alt="icon" width></a>
+        <a href="" class='About_Us' style="color: white;"><button style="font-family: monospace;font-size: 20px; background-color:#333; border:none;color: white; transform: translate(7px, -39px);">About Us</button></a>
+        <a href="" class='Get_Started' style="color: white;"><button style="font-family: monospace;font-size: 20px; background-color:#333; border:none;color: white; transform: translate(14px, -39px);">Get Started</button></a>
+        <a href=""><img src="/static/images/eplaces.png" alt="eplaces logo" style='width: 300px; transform: translate(720px, -9px);'></a>
+    </div>
 
     <script type='text/javascript'>
     function GetMap()
@@ -81,34 +87,30 @@
     }
     </script>
 </head>
-<body>
+<body style="background-color: rgb(26, 23, 23);">
     <h1>Some nearby {{typ}} near {{Locality}}...</h1>
     <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
     <label for="myMap" style="font-family: monospace;">
         {{hospitalFive}}
         <p>Address: </p>{{hospitalFive_address}}
-        <button><a href="#">Details about {{hospitalFive}}</a></button>
     </label>
 
     <div id="myMap2" style="position:relative;width:600px;height:400px;"></div>
     <label for="myMap2" style="font-family: monospace;">
         {{hospitalFour}}
         <p>Address: </p>{{hospitalFour_address}}
-        <button><a href="#">Details about {{hospitalFour}}</a></button>
     </label>
 
     <div id="myMap3" style="position:relative;width:600px;height:400px;"></div>
     <label for="myMap3" style="font-family: monospace;">
         {{hospitalThree}}
         <p>Address: </p>{{hospitalThree_address}}
-        <button><a href="#">Details about {{hospitalThree}}</a></button>
     </label>
 
     <div id="myMap4" style="position:relative;width:600px;height:400px;"></div>
     <label for="myMap4" style="font-family: monospace;">
         {{hospitalTwo}}
         <p>Address: </p>{{hospitalTwo_address}}
-        <button><a href="#">Details about {{hospitalTwo}}</a></button>
     </label>
 
     <div id="myMap5" style="position:relative;width:600px;height:400px;"></div>
@@ -118,7 +120,12 @@
         <button><a href="#">Details about {{hospitalOne}}</a></button>
     </label>
 
-
+<style>
+    body{
+        color: white;
+        font-family: monospace;
+    }
+</style>
 
 
 

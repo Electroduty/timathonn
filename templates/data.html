@@ -3,24 +3,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="static/data.css">
 </head>
-<body>
+<body style="background-color: rgb(26, 23, 23);">
+    <div class="navbar" style="background-color: #333;">
+        <p style="font-family:monospace; color:white;">Powered by...</p>
+        <a href="/"><img src="/static/images/icon.png" alt="icon" width></a>
+        <a href="" class='About_Us' style="color: white;"><button style="font-family: monospace;font-size: 20px; background-color:#333; border:none;color: white; transform: translate(7px, -39px);">About Us</button></a>
+        <a href="" class='Get_Started' style="color: white;"><button style="font-family: monospace;font-size: 20px; background-color:#333; border:none;color: white; transform: translate(14px, -39px);">Get Started</button></a>
+        <a href=""><img src="/static/images/eplaces.png" alt="eplaces logo" style='width: 300px; transform: translate(720px, -9px);'></a>
+    </div>
     <h1 style='color:white; font-family: monospace;'>Enter Your location...</h1>
     <form action="{{ url_for('index') }}" method="post" class='data'>
-        <label for="Country">Country</label>
+        <label for="Country" style="color:white;">Country</label>
         <input type="text" name="Country" id="Country" class='Country'>
 
-        <label for="State">State</label>
+        <label for="State"style="color:white;">State</label>
         <input type="text" name="State" id="State" class='State'>
 
-        <label for="Locality">Locality</label>
+        <label for="Locality"style="color:white;">Locality</label>
         <input type="text" name="Locality" id="Locality" class='Locality'>
-        <h2 style='color:white; font-family: monospace;'>NOTE: The Locality Field should be a place (restaurant, hospital, etc...) somewhere near your house</h2>
+        <div class="note" style="width: 400px;transform: translate(733px, -60px);"><h2 style='color:white; font-family: monospace;'>NOTE: The Locality Field should be a place (restaurant, hospital, etc...) somewhere near your house</h2></div>
 
         
 
 
         
-        <input type="submit" value="Search">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>

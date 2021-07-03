@@ -41,6 +41,13 @@
     </script>
 </head>
 <body>
+    <div class="navbar" style="background-color: #333;">
+        <p style="font-family:monospace; color:white;">Powered by...</p>
+        <a href="/"><img src="/static/images/icon.png" alt="icon" width></a>
+        <a href="" class='About_Us' style="color: white;"><button style="font-family: monospace;font-size: 20px; background-color:#333; border:none;color: white; transform: translate(7px, -39px);">About Us</button></a>
+        <a href="" class='Get_Started' style="color: white;"><button style="font-family: monospace;font-size: 20px; background-color:#333; border:none;color: white; transform: translate(14px, -39px);">Get Started</button></a>
+        <a href=""><img src="/static/images/eplaces.png" alt="eplaces logo" style='width: 300px; transform: translate(720px, -9px);'></a>
+    </div>
     <!-- <h1>Your Location...</h1> -->
     <div class='map'>
         <h1>Your Location...</h1>
@@ -48,8 +55,9 @@
         <!-- <label>{{geocode}}</label> -->
         <label for="Type" class='lbl'>Type</label>
         <form action="{{url_for('maps')}}" method="post">
-            <input type="text" name="Type" id="Type" class='type'>
-            <input type="submit" value="submit" class='sbtbtn'>
+            <input type="text" name="Type" id="Type" class='type' style='border:none;'>
+            <input type="submit" value="Search" class='sbtbtn'>
+            <p style="color:white; font-family:monospace;transform: translate(332px, -31px);">NOTE: Type in the type of place you want to search for. For example: Restarants, Hospitals, Pharmacies</p>
             
         </form>
 

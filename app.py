@@ -271,14 +271,24 @@ def rating():
         msg['Subject'] = 'Thanks for the rating'
         msg['From'] = EMAIL_ADDRESS
         msg['To'] = str(email)
-        rating= str(rating)+'stars'
-        msg.set_content('Thanks a lot for your rating, 5 stars! Impressed')
+        rating= str(rating)
+        msg.set_content('Thanks a lot for your rating')
+        if rating == '5':
+            rating = "Ohh 5 stars! I'm impressed!"
+        elif rating == '4':
+            rating = "Ohh 4 stars! Glad you liked it!"
+        elif rating == '3':
+            rating = "Ohh 3 stars! Thanks!"
+        elif rating == '2':
+            rating = "Ohh 2 stars... Why didn't you like it? Send me a mail."
+        elif rating == '1':
+            rating = "Ohh 1 star... Why did you feel its bad? Send me a mail."        
         msg.add_alternative("""\
             <!DOCTYPE html>
         <html lang="en">
         <body style="background-color:pink;">
             <h1 style="font-family: monospace;">Thanks for the rating</h1>
-            <h2 style="font-family: monospace;">Ohh!!! """+rating+""" Impressive!</h2> 
+            <h2 style="font-family: monospace;">"""+rating+"""</h2> 
             <img src="https://instagram.fblr1-5.fna.fbcdn.net/v/t51.2885-15/e35/s240x240/211963830_244630863790534_4344418040274416200_n.jpg?tp=1&_nc_ht=instagram.fblr1-5.fna.fbcdn.net&_nc_cat=110&_nc_ohc=LKNw9VyQ35cAX8ac1u1&edm=AI8ESKwBAAAA&ccb=7-4&oh=8e04ac45ab02df4002c740bec98da62c&oe=60E71297&_nc_sid=195af5&ig_cache_key=MjYwOTA2NTA2Mjc3NDAyNDk4NQ%3D%3D.2-ccb7-4" alt="paper" width="900px" height="900px" style="padding:100px;">
 
 

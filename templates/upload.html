@@ -8,7 +8,9 @@
     <ul>
         <li class='btn-btn'><button type="button" class="btn btn-outline-primary"><a href="/uploads"><img src="static/images/upload.png" alt="upload"></a></button></li>
         <li class='Search_btn'><button type="button" class="btn btn-outline-primary"><a href="/uploads" id="search" onclick='scroll'></a><img src="/static/images/search_small.png" alt="search image"></a></button></li>
-        <li class='logo'><button><a href="/Estreams"><img src="/static/images/logo.png" alt="Estreams logo"></a></button></li>
+        <li class='logo'><button style="transform: translate(-409px, 50px);"><a href="/Estreams"><img src="/static/images/logo.png" alt="Estreams logo"></a></button></li>
+        <p style="color:white; font-family:monospace;transform: translate(1075px, -90px);">Powerd by...</p>
+        <li class='logo' ><button style="transform: translate(170px, -97px);"><a href="/"><img src="static/images/icon.png" alt="Explore icon"></a></button></li>
     </ul> 
     <form method="POST" action="{{url_for('upload_files')}}" enctype="multipart/form-data">
         <input type="file" name="file" class="file">
@@ -21,6 +23,7 @@
 
         <!-- style="transform: translate(705px, 916px);" -->
         <section style="    position: relative;left: 500px;top: 714px;"id='search'>
+            <h2>NOTE: Search for the video by the title you provided when uploading the video</h2>
             <label for="search">search</label>
             <input type="text" name="search">
             <input type="submit" value="Search">

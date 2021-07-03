@@ -1,3 +1,5 @@
+<h1>Explore</h1>
+
 About the maker of Explore(Me-Gaurav Chandrashekar):
 
 So... I am a 12 year old boy who is currently into programming with python and C#. I am much more proficient with python tho... 

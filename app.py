@@ -14,8 +14,8 @@ import smtplib
 import os
 from email.message import EmailMessage
 
-EMAIL_ADDRESS = 'gc997716@gmail.com'
-EMAIL_PASSWORD = 'Cosmic@Dogfight13'
+EMAIL_ADDRESS = 'email_address'
+EMAIL_PASSWORD = 'email_password'
 
 
 #Flask Init
@@ -74,7 +74,7 @@ def maps():
         longitude = log
 
 
-        api_key = 'id9PFVL6rOpgypwTb_FG10ZMRMaHKScQwP01khV1Y0U' # Acquire from developer.here.com
+        api_key = 'API_KEY' # Acquire from developer.here.com
         query = typ
         limit = 5
 
@@ -144,45 +144,15 @@ def maps():
         hospitalFive_address =  data['items'][4]['address']['label']
         hospitalFive_latitude = data['items'][4]['position']['lat']
         hospitalFive_longitude = data['items'][4]['position']['lng']
-        # hospitalFivephone = data['items'][4]['contacts'][0]['phone'][0]['value']
 
-        # if  data['items'][4]['contacts'][0]['phone'][0]['value']:
-        #     hospitalFivephone = data['items'][4]['contacts'][0]['phone'][0]['value']
-
-        # else:
-        #     hospitalFivephone = data['items'][4]['contacts'][0]['mobile'][0]['value']
-        print('   ')
-        # print(hospitalphone)
-
-        # hospitalSix = data['items'][5]['title']
-        # hospitalSix_address =  data['items'][5]['address']['label']
-        # hospitalSix_latitude = data['items'][5]['position']['lat']
-        # hospitalSix_longitude = data['items'][5]['position']['lng']
-        # hospitalphone = data['items'][5]['phone']['value']
-        # print(hospitalFive_address)
-
-        #DEBBUGGING PURPOSES ONLY
-        # print(hospitalOne)
-        # print(hospitalTwo)
-        # print(hospitalThree)
-        # print(hospitalFour)
-        # print(hospitalFive)
-        # print(hospitalFive_latitude, hospitalFive_longitude)
+   
 
         geocode = str(hospitalFive_latitude)+','+str(hospitalFive_longitude)
-        # search_string = "https://justdial.com"
-        # browser = webdriver.Chrome('/home/gaurav/Downloads/chromedriver')
-        # browser.get(search_string)
 
         return render_template('location.html' , geocode=geocode, hospitalFive=hospitalFive, hospitalFive_longitude=hospitalFive_longitude, hospitalFive_latitude=hospitalFive_latitude,hospitalFive_address=hospitalFive_address, hospitalFour_latitude=hospitalFour_latitude,hospitalFour_longitude=hospitalFour_longitude, hospitalFour=hospitalFour,hospitalFour_address=hospitalFour_address, typ=typ, Locality=Locality, hospitalThree=hospitalThree, hospitalThree_latitude=hospitalThree_latitude, hospitalThree_longitude=hospitalThree_longitude,hospitalThree_address=hospitalThree_address, hospitalTwo_longitude=hospitalTwo_longitude, hospitalTwo_latitude=hospitalTwo_latitude, hospitalTwo=hospitalTwo,hospitalTwo_address=hospitalTwo_address, hospitalOne=hospitalOne, hospitalOne_longitude=hospitalOne_longitude, hospitalOne_latitude=hospitalOne_latitude, hospitalOne_address=hospitalOne_address)
 
 #route to return
-
-
-
-        #Get suggestions\
-        # print(typ)
-        URL = "http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=Benfaluru&viaWaypoint.2=Mysur&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&timeType={timeType}&dateTime={dateTime}&maxSolutions={maxSolutions}&tolerances={tolerances}&distanceUnit={distanceUnit}&key=ApoSfk2tKg5S1J5L3DFAMjfwreSS62XGMtLE9NsAmGcNWQJ21lAeRJs3w1LML19X"
+        URL = "http://dev.virtualearth.net/REST/v1/Routes?wayPoint.1=Benfaluru&viaWaypoint.2=Mysur&heading={heading}&optimize={optimize}&avoid={avoid}&distanceBeforeFirstTurn={distanceBeforeFirstTurn}&routeAttributes={routeAttributes}&timeType={timeType}&dateTime={dateTime}&maxSolutions={maxSolutions}&tolerances={tolerances}&distanceUnit={distanceUnit}&key=API_KEY"
 
 @app.route('/Estreams')
 def home_page():

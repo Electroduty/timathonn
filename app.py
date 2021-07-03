@@ -28,16 +28,6 @@ con = sqlite3.connect('Videofilelink.db')
 #Define cursor for database
 cur = con.cursor()
 
-#home route
-@app.route('/')
-def home():
-    # return render_template('home.html')
-    return render_template('real_home.html')
-
-#Rating route
-@app.route('/rating')
-def rating():
-    return render_template('rating.html')
 
 
 
@@ -199,8 +189,6 @@ def index2():
     filearr = files[0:1]
     #Insert vidlinks into database
     return render_template('upload.html', files=files)
-
-
 #Upload route to process files
 @app.route('/uploads', methods=['POST'])
 def upload_files():
@@ -261,7 +249,20 @@ def home2(srch_url):
 def upload(filename):
     return send_from_directory(app.config['UPLOAD_PATH'], filename)
 
+#home route
+@app.route('/')
+def home():
+    return render_template('real_home.html')
 
+#Rating route
+@app.route('/rating', methods= ['POST', 'GET'])
+def rating():
+    if request.method == "POST":
+        rating = request.form['rating']
+        print(rating) 
+        return render_template('rating.html')
+    else:
+        return render_template('rating.html')
 
 
 

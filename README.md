@@ -1,14 +1,14 @@
 <h1>Explore</h1>
 
 <h2>About:<h2>
+<img src="/static/images/icon.png" alt='Explore icon'> 
+  
 <h3>About the maker of Explore(Me-Gaurav Chandrashekar):</h3>
-
-
 <p>So... I am a 12 year old boy who is currently into programming with python and C#. I am much more proficient with python though... 
 I was scrolling through youtube when I found Tim's Timathon video and I absolutely loved it! So here I am, acctually participating in the timathon!</p>
 
 <h3>About the app:</h3>
-<img src="/static/images/icon.png" alt='Explore icon'> 
+
   
 <p>This is an app called Explore(not very good at naming ._.). There are a lot of things you can do with explore. Such as... Search for places around you(restaurants,Pharmacies, etc...) with EPlaces.
  

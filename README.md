@@ -14,3 +14,4 @@ I was scrolling through youtube when I found Tim's Timathon video and I absolute
 <img src="/static/images/eplaces.png" width="300px"> 
 and even browse for videos (just like youtube!), search for videos or maybe even upload one! So Tim, if you loking at my repository... Please
 please post a video(I would love that!). By the way, anybody can post videos! But not too much. The server will cause a lot of lag...</p>
+  print

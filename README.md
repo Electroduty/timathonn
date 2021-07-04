@@ -12,5 +12,6 @@ I was scrolling through youtube when I found Tim's Timathon video and I absolute
   
 <p>This is an app called Explore(not very good at naming ._.). There are a lot of things you can do with explore. Such as... Search for places around 
 you(restaurants,Pharmacies, etc...) with EPlaces
-<img src="/static/images/eplaces.png" width="300px"> and even browse for videos (just like youtube!), search for videos or maybe even upload one! So Tim, if you loking at my repository... Please
+<img src="/static/images/eplaces.png" width="300px"> 
+and even browse for videos (just like youtube!), search for videos or maybe even upload one! So Tim, if you loking at my repository... Please
 please post a video(I would love that!). By the way, anybody can post videos! But not too much. The server will cause a lot of lag...</p>

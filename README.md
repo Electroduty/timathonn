@@ -2,6 +2,8 @@
 
 <h2>About:<h2>
 <h3>About the maker of Explore(Me-Gaurav Chandrashekar):</h3>
+![icon Logo](/static/images/icon.png)
+  Format:[explore icon](url)
 
 <p>So... I am a 12 year old boy who is currently into programming with python and C#. I am much more proficient with python tho... 
 I was scrolling thru youtube when I found tim's timathon video and I absolutely loved it! So here i am acctually oarticipating in the timathon!</p>

@@ -23,5 +23,7 @@ NOTE: There are a lot of sensitive info that i have removed such as api keys and
 Link to the website:
   http://eshplore.herokuapp.com
   
+Use with any browser except for google and internet explorer
+  
   
 NOTE: The website might take sometime to start up. Please be patient

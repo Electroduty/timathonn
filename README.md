@@ -13,15 +13,16 @@ I was scrolling through youtube when I found Tim's Timathon video! So here I am,
 <p>This is an app called Explore.<br>
 There are a lot of things you can do with explore.<br> 
 Such as...<br> 
-<img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon"><br> 
+  <br>
+1. <img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon"><br> 
   <br>
   <br>
-1. Search for places around you(restaurants,Pharmacies, etc...) with EPlaces. <br>
+Search for places around you(restaurants,Pharmacies, etc...) with EPlaces. <br>
   <br>
   <br>
-<img src="static/images/logo.png" alt="EStreams icon" width="200px">
+2. <img src="static/images/logo.png" alt="EStreams icon" width="200px">
   <br>
-2. Browse for videos (just like youtube!), search for videos or maybe even upload one with EStreams</p>
+Browse for videos (just like youtube!), search for videos or maybe even upload one with EStreams</p>
   
     And also be sure to give me a rating on the website for a surprise!
   

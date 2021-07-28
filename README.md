@@ -17,9 +17,9 @@ There are a lot of things you can do with explore.
 Such as... 
   <br>
   <br>
-1. <img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon">
-  <br> 
-Search for places around you(restaurants,Pharmacies, etc...) with EPlaces. <br>
+    1. <img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon">
+      <br> 
+    Search for places around you(restaurants,Pharmacies, etc...) with EPlaces. <br>
   <br>
   <br>
 2. <img src="static/images/logo.png" alt="EStreams icon" width="200px">

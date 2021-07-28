@@ -11,7 +11,8 @@ I was scrolling through youtube when I found Tim's Timathon video! So here I am,
 
   
 <p>This is an app called Explore.<br>
-There are a lot of things you can do with explore.<br> 
+There are a lot of things you can do with explore.
+  <br> 
 Such as...<br> 
   <br>
 1. <img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon">

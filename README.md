@@ -32,7 +32,7 @@ Browse for videos (just like youtube!), search for videos or maybe even upload o
   <br>
   <br>
   
-NOTE: There are a lot of sensitive info that I have removed such as api keys and passwords and have replaced them with **API_KEY**, **PASSWORD**. <br>
+NOTE: There are a lot of sensitive info that I have removed such as api keys and passwords and have replaced them with ***API_KEY***, ***PASSWORD***, ***EMAIL_ID*** etc... <br>
   <br>
 NOTE 2: Please keep your zoom level at 80% or 100%(in some computers) for best experience. <br>
   <br>

@@ -38,7 +38,7 @@ NOTE 2: Please keep your zoom level at 80% or 100%(in some computers) for best e
   <br>
 NOTE 3: The website might take sometime to start up. Please be patient. <br>
   <br>
-NOTE 4: Use firefox or gogle chrome for best experience. Brave will convert the http to https then you wont be abkle to see certain things on the website
+NOTE 4: Use ***FireFox*** or ***Google Chrome*** for best experience. Brave will convert the http to https then you wont be abkle to see certain things on the website
 <br>
   <br>
   <br>

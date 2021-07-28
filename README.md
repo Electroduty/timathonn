@@ -23,8 +23,12 @@ NOTE 2: Please keep your zoom level at 80% for best experience. <br>
   <br>
 NOTE 3: The website might take sometime to start up. Please be patient. <br>
   <p>   </p>
-
-          Link to the website:
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+Link to the website:
   http://eshplore.herokuapp.com
   
   

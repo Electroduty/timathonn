@@ -22,6 +22,8 @@ Search for places around you(restaurants,Pharmacies, etc...) with EPlaces. <br>
 2. <img src="static/images/logo.png" alt="EStreams icon" width="200px">
   <br>
 Browse for videos (just like youtube!), search for videos or maybe even upload one with EStreams</p>
+  <br>
+  <br>
   
     And also be sure to give me a rating on the website for a surprise!
   <br>

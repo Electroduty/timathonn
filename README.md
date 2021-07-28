@@ -16,8 +16,8 @@ I was scrolling through youtube when I found Tim's Timathon video! So here I am,
   <br>
 
  
-<img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon"> 
-and even browse for videos (just like youtube!), search for videos or maybe even upload one with <img src="static/images/logo.png" alt="EStreams icon" width="200px"></p>
+<img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon"><br> 
+Or even browse for videos (just like youtube!), search for videos or maybe even upload one with <img src="static/images/logo.png" alt="EStreams icon" width="200px"></p>
   
     And also be sure to give me a rating on the website for a surprise!
   

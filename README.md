@@ -34,10 +34,11 @@ Browse for videos (just like youtube!), search for videos or maybe even upload o
   
 NOTE: There are a lot of sensitive info that I have removed such as api keys and passwords and have replaced them with API_KEY, PASSWORD. <br>
   <br>
-NOTE 2: Please keep your zoom level at 80% for best experience. <br>
+NOTE 2: Please keep your zoom level at 80% or 100%(in some computers) for best experience. <br>
   <br>
 NOTE 3: The website might take sometime to start up. Please be patient. <br>
-  <p>   </p>
+  <br>
+NOTE 4: Use firefox or gogle chrome for best experience. Brave will convert the http to https then you wont be abkle to see certain things on the website
 <br>
   <br>
   <br>

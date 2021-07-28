@@ -14,9 +14,8 @@ I was scrolling through youtube when I found Tim's Timathon video! So here I am,
 There are a lot of things you can do with explore.<br> 
 Such as...<br> 
   <br>
-1. <img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon"><br> 
-  <br>
-  <br>
+1. <img src="/static/images/eplaces.png" width="300px" alt="EPlaces icon">
+  <br> 
 Search for places around you(restaurants,Pharmacies, etc...) with EPlaces. <br>
   <br>
   <br>
@@ -25,6 +24,8 @@ Search for places around you(restaurants,Pharmacies, etc...) with EPlaces. <br>
 Browse for videos (just like youtube!), search for videos or maybe even upload one with EStreams</p>
   
     And also be sure to give me a rating on the website for a surprise!
+  <br>
+  <br>
   
 NOTE: There are a lot of sensitive info that I have removed such as api keys and passwords and have replaced them with API_KEY, PASSWORD. <br>
   <br>

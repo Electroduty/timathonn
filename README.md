@@ -20,29 +20,10 @@ and even browse for videos (just like youtube!), search for videos or maybe even
 NOTE: There are a lot of sensitive info that I have removed such as api keys and passwords and have replaced them with API_KEY, PASSWORD.
 NOTE 2: Please keep your zoom level at 80% for best experience.
 NOTE 3: The website might take sometime to start up. Please be patient
-  <p>   
-       
-       
-       
-       
-       
-        
-       
-       
-       
-       
-       
-       
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </p>
+  <p>   </p>
+  <p>   </p>
+  <p>   </p>
+  <p>   </p>
  Link to the website:
   http://eshplore.herokuapp.com
   
